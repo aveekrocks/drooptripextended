@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neo Tokyo - DroopTrip</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://use.typekit.net/yhe4hky.css" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="destination.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html" data-text="DROOPTRIP">
+                <span class="droop">DROOP</span><span class="trip">TRIP</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#destinations">Destinations</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Destination Header -->
+    <header class="destination-header">
+        <div class="neon-grid"></div>
+        <div class="neon-particles"></div>
+        <div class="container">
+            <h1 class="neon-title">Neo Tokyo</h1>
+            <div class="location-stats">
+                <span class="stat"><i class="bi bi-geo-alt"></i> Japan</span>
+                <span class="stat"><i class="bi bi-calendar"></i> Best Time: March-May</span>
+                <span class="stat"><i class="bi bi-clock"></i> GMT+9</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Image Carousel -->
+    <section class="carousel-section">
+        <div class="container">
+            <div id="destinationCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#destinationCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#destinationCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#destinationCarousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#destinationCarousel" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#destinationCarousel" data-bs-slide-to="4"></button>
+                    <button type="button" data-bs-target="#destinationCarousel" data-bs-slide-to="5"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://picsum.photos/1200/800?random=73" class="d-block w-100" alt="Shibuya Crossing 2049">
+                        <div class="carousel-caption">
+                            <h5>Shibuya Crossing 2049</h5>
+                            <p>World's busiest intersection with holographic advertisements and AR navigation</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://picsum.photos/1200/800?random=74" class="d-block w-100" alt="Akihabara Matrix">
+                        <div class="carousel-caption">
+                            <h5>Akihabara Matrix</h5>
+                            <p>Electric town reimagined with VR gaming centers and AI companions</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://picsum.photos/1200/800?random=75" class="d-block w-100" alt="Neo Shinjuku">
+                        <div class="carousel-caption">
+                            <h5>Neo Shinjuku</h5>
+                            <p>Vertical city with sky bridges and floating gardens</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://picsum.photos/1200/800?random=76" class="d-block w-100" alt="Digital Temples">
+                        <div class="carousel-caption">
+                            <h5>Digital Temples</h5>
+                            <p>Ancient shrines enhanced with interactive holograms and digital prayers</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://picsum.photos/1200/800?random=77" class="d-block w-100" alt="Cyber Gardens">
+                        <div class="carousel-caption">
+                            <h5>Cyber Gardens</h5>
+                            <p>Traditional gardens with bio-luminescent plants and AI caretakers</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://picsum.photos/1200/800?random=78" class="d-block w-100" alt="Bullet Pods">
+                        <div class="carousel-caption">
+                            <h5>Bullet Pods</h5>
+                            <p>Next-gen transportation with individual magnetic levitation pods</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#destinationCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#destinationCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destination Content -->
+    <main class="destination-content">
+        <div class="container">
+            <section class="overview-section">
+                <h2 class="section-title">Overview</h2>
+                <p>Neo Tokyo stands as a testament to Japan's technological prowess, where tradition meets cutting-edge innovation. This megalopolis seamlessly blends ancient culture with futuristic advancements.</p>
+                
+                <div class="quick-facts">
+                    <h3>Quick Facts</h3>
+                    <ul>
+                        <li>Population: 15 million (metro area)</li>
+                        <li>Known for: Advanced robotics</li>
+                        <li>Main attractions: Shibuya Crossing 2049</li>
+                        <li>Local currency: Digital Yen</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="highlights-section">
+                <h2 class="section-title">Highlights</h2>
+                <div class="highlight-grid">
+                    <div class="highlight-card">
+                        <h3>Shibuya Crossing</h3>
+                        <p>Experience the world's most advanced pedestrian crossing system.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h3>Akihabara Matrix</h3>
+                        <p>Dive into the future of gaming and entertainment.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h3>Digital Temples</h3>
+                        <p>Where ancient spirituality meets digital enhancement.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h3>Bullet Pods</h3>
+                        <p>Experience personal rapid transit like never before.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="explore-section">
+                <h2 class="section-title">What to Explore</h2>
+                <div class="explore-grid">
+                    <div class="explore-item">
+                        <h3>Technology</h3>
+                        <ul>
+                            <li>AI companions</li>
+                            <li>VR centers</li>
+                            <li>Robot cafes</li>
+                            <li>Smart vending</li>
+                        </ul>
+                    </div>
+                    <div class="explore-item">
+                        <h3>Culture</h3>
+                        <ul>
+                            <li>Digital art</li>
+                            <li>Cyber festivals</li>
+                            <li>Tech museums</li>
+                            <li>AR theaters</li>
+                        </ul>
+                    </div>
+                    <div class="explore-item">
+                        <h3>Food</h3>
+                        <ul>
+                            <li>AI chefs</li>
+                            <li>Molecular gastronomy</li>
+                            <li>Smart restaurants</li>
+                            <li>Digital ordering</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../script.js"></script>
+</body>
+</html>
